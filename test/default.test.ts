@@ -9,7 +9,6 @@ import pancakeswapSchema from "./schema.json"; // TODO: exports path
 import { groupBy } from "lodash";
 import { buildList, VersionBump } from "../src/buildList.js";
 import getTokenChainData from "../src/utils/getTokensChainData.js";
-import { getAptosCoinsChainData } from "../src/utils/getAptosCoinChainData.js";
 import { LISTS } from "../src/constants.js";
 import { arbitrum, base, bsc, mainnet, polygonZkEvm, zkSync } from "viem/chains";
 import { linea } from "../src/utils/publicClients.js";
