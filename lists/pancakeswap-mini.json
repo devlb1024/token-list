@@ -1,10 +1,10 @@
 {
   "name": "PancakeSwap Mini",
-  "timestamp": "2023-06-22T06:57:18.899Z",
+  "timestamp": "2023-08-25T11:51:43.280Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 4
+    "patch": 6
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
