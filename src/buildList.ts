@@ -60,9 +60,8 @@ export const buildList = async (listName: string, versionBump?: VersionBump): Pr
 };
 
 export const saveList = async (tokenList: TokenList, listName: string): Promise<void> => {
-  const stringifiedList = JSON.stringify(tokenList, null, 2);
   const tokenListFile = buildPath("lists",`${listName}.json`)
-  await writeJSONFile(tokenListFile,stringifiedList)
+  await writeJSONFile(tokenListFile,tokenList)
   console.info("Token list saved to ", tokenListFile);
 };
 

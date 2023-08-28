@@ -1,1 +1,40 @@
-"{\n  \"name\": \"Kurama Default\",\n  \"timestamp\": \"2023-08-28T07:47:59.938Z\",\n  \"version\": {\n    \"major\": 0,\n    \"minor\": 0,\n    \"patch\": 23\n  },\n  \"logoURI\": \"\",\n  \"keywords\": [\n    \"kurama\",\n    \"default\"\n  ],\n  \"tokens\": [\n    {\n      \"name\": \"Kurama test USDT\",\n      \"symbol\": \"USDT\",\n      \"address\": \"0x3d38d54CbD0F6d90Cc3f861cd05e7F5d223Fb9Fe\",\n      \"chainId\": 534351,\n      \"decimals\": 6,\n      \"logoURI\": \"https://kurama-token.netlify.app/images/kurama/0x3d38d54cbd0f6d90cc3f861cd05e7f5d223fb9fe.png\"\n    },\n    {\n      \"name\": \"Kurama test USDC\",\n      \"symbol\": \"USDC\",\n      \"address\": \"0x5C1fe01D69d2657455B6D4aE61500F2F42353e10\",\n      \"chainId\": 534351,\n      \"decimals\": 6,\n      \"logoURI\": \"https://kurama-token.netlify.app/images/kurama/0x5c1fe01d69d2657455b6d4ae61500f2f42353e10.png\"\n    },\n    {\n      \"name\": \"Kurama test BTC\",\n      \"symbol\": \"WBTC\",\n      \"address\": \"0x46A4075Fc1BA3847c49ce076E89797c0a3160028\",\n      \"chainId\": 534351,\n      \"decimals\": 18,\n      \"logoURI\": \"https://kurama-token.netlify.app/images/kurama/0x46a4075fc1ba3847c49ce076e89797c0a3160028.png\"\n    }\n  ]\n}"
+{
+  "name": "Kurama Default",
+  "timestamp": "2023-08-28T07:57:46.133Z",
+  "version": {
+    "major": 0,
+    "minor": 0,
+    "patch": 24
+  },
+  "logoURI": "",
+  "keywords": [
+    "kurama",
+    "default"
+  ],
+  "tokens": [
+    {
+      "name": "Kurama test USDT",
+      "symbol": "USDT",
+      "address": "0x3d38d54CbD0F6d90Cc3f861cd05e7F5d223Fb9Fe",
+      "chainId": 534351,
+      "decimals": 6,
+      "logoURI": "https://kurama-token.netlify.app/images/kurama/0x3d38d54cbd0f6d90cc3f861cd05e7f5d223fb9fe.png"
+    },
+    {
+      "name": "Kurama test USDC",
+      "symbol": "USDC",
+      "address": "0x5C1fe01D69d2657455B6D4aE61500F2F42353e10",
+      "chainId": 534351,
+      "decimals": 6,
+      "logoURI": "https://kurama-token.netlify.app/images/kurama/0x5c1fe01d69d2657455b6d4ae61500f2f42353e10.png"
+    },
+    {
+      "name": "Kurama test BTC",
+      "symbol": "WBTC",
+      "address": "0x46A4075Fc1BA3847c49ce076E89797c0a3160028",
+      "chainId": 534351,
+      "decimals": 18,
+      "logoURI": "https://kurama-token.netlify.app/images/kurama/0x46a4075fc1ba3847c49ce076e89797c0a3160028.png"
+    }
+  ]
+}
