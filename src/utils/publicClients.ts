@@ -4,7 +4,7 @@ import { arbitrum, base, bsc, mainnet, polygonZkEvm, scrollSepolia, scrollTestne
 
 
 export const Scroll_Test = {
-  id: 534353,
+  id: 534351,
   name: 'Scroll Testnet',
   network: 'scroll-testnet',
   nativeCurrency: { name: 'Ether', symbol: 'ETH', decimals: 18 },
@@ -57,6 +57,10 @@ export const publicClients = {
   }),
   [Scroll_Test.id]: createPublicClient({
     chain: Scroll_Test,
+    transport: http(),
+  }),
+  [scrollSepolia.id]: createPublicClient({
+    chain: scrollSepolia,
     transport: http(),
   }),
   [base.id]: createPublicClient({
