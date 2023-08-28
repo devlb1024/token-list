@@ -6,7 +6,7 @@
     "minor": 0,
     "patch": 26
   },
-  "logoURI": "",
+  "logoURI": "https://kurama-token.netlify.app/images/kurama/0x3d38d54cbd0f6d90cc3f861cd05e7f5d223fb9fe.png",
   "keywords": [
     "kurama",
     "default"
@@ -16,7 +16,7 @@
       "name": "Kurama test USDT",
       "symbol": "USDT",
       "address": "0x3d38d54CbD0F6d90Cc3f861cd05e7F5d223Fb9Fe",
-      "chainId": 534351,
+      "chainId": 534353,
       "decimals": 6,
       "logoURI": "https://kurama-token.netlify.app/images/kurama/0x3d38d54cbd0f6d90cc3f861cd05e7f5d223fb9fe.png"
     },
@@ -24,7 +24,7 @@
       "name": "Kurama test USDC",
       "symbol": "USDC",
       "address": "0x5C1fe01D69d2657455B6D4aE61500F2F42353e10",
-      "chainId": 534351,
+      "chainId": 534353,
       "decimals": 6,
       "logoURI": "https://kurama-token.netlify.app/images/kurama/0x5c1fe01d69d2657455b6d4ae61500f2f42353e10.png"
     },
@@ -32,7 +32,7 @@
       "name": "Kurama test BTC",
       "symbol": "WBTC",
       "address": "0x46A4075Fc1BA3847c49ce076E89797c0a3160028",
-      "chainId": 534351,
+      "chainId": 534353,
       "decimals": 18,
       "logoURI": "https://kurama-token.netlify.app/images/kurama/0x46a4075fc1ba3847c49ce076e89797c0a3160028.png"
     }

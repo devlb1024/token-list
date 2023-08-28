@@ -3905,7 +3905,7 @@ v8-to-istanbul@^9.0.1:
     "@types/istanbul-lib-coverage" "^2.0.1"
     convert-source-map "^1.6.0"
 
-viem@^1.8.0:
+viem@^1.8.1:
   version "1.8.1"
   resolved "https://registry.yarnpkg.com/viem/-/viem-1.8.1.tgz#36e4e7db430b2a5b5535e455ad2a7da5ef63cca5"
   integrity sha512-g+8dW8K6uae+3k/5pezSmlwo3/G+uEZiQsHlJooH86Z4PT3clgtU179iL/GNEcNGwafyJh/Iq/1e+FTbHQKH8Q==

@@ -27,7 +27,7 @@
     "slugify": "^1.6.0",
     "tslib": "^2.4.0",
     "typechain": "^7.0.0",
-    "viem": "^1.8.0"
+    "viem": "^1.8.1"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.14.1",

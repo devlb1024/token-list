@@ -34,7 +34,7 @@ export const buildList = async (listName: string, versionBump?: VersionBump): Pr
   const version = getNextVersion(currentVersion, versionBump);
   console.log("version: " , version);
   
-  const list = await await readJSONFile(buildPath(tokens_directory,`${listName}.json`));
+  const list = await  readJSONFile(buildPath(tokens_directory,`${listName}.json`));
   return {
     name,
     timestamp: new Date().toISOString(),

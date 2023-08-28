@@ -3,37 +3,25 @@ import { arbitrum, base, bsc, mainnet, polygonZkEvm, scrollSepolia, scrollTestne
 
 
 
-export const linea = {
-  id: 59_144,
-  name: 'Linea Mainnet',
-  network: 'linea-mainnet',
-  nativeCurrency: { name: 'Linea Ether', symbol: 'ETH', decimals: 18 },
+export const Scroll_Test = {
+  id: 534353,
+  name: 'Scroll Testnet',
+  network: 'scroll-testnet',
+  nativeCurrency: { name: 'Ether', symbol: 'ETH', decimals: 18 },
   rpcUrls: {
-    infura: {
-      http: ['https://linea-mainnet.infura.io/v3'],
-      webSocket: ['wss://linea-mainnet.infura.io/ws/v3'],
-    },
     default: {
-      http: ['https://rpc.linea.build'],
-      webSocket: ['wss://rpc.linea.build'],
+      http: ['https://alpha-rpc.scroll.io/l2"'],
+      webSocket: ['wss://alpha-rpc.scroll.io/l2/ws'],
     },
     public: {
-      http: ['https://rpc.linea.build'],
-      webSocket: ['wss://rpc.linea.build'],
+      http: ['https://alpha-rpc.scroll.io/l2'],
+      webSocket: ['wss://alpha-rpc.scroll.io/l2/ws'],
     },
   },
   blockExplorers: {
     default: {
-      name: 'Etherscan',
-      url: 'https://lineascan.build',
-    },
-    etherscan: {
-      name: 'Etherscan',
-      url: 'https://lineascan.build',
-    },
-    blockscout: {
       name: 'Blockscout',
-      url: 'https://explorer.linea.build',
+      url: 'https://blockscout.scroll.io',
     },
   },
   contracts: {
@@ -42,7 +30,7 @@ export const linea = {
       blockCreated: 42,
     },
   },
-  testnet: false,
+  testnet: true,
 } as const satisfies Chain
 
 
@@ -67,12 +55,8 @@ export const publicClients = {
     chain: arbitrum,
     transport: http(),
   }),
-  [linea.id]: createPublicClient({
-    chain: linea,
-    transport: http(),
-  }),
-  [scrollTestnet.id]: createPublicClient({
-    chain: scrollTestnet,
+  [Scroll_Test.id]: createPublicClient({
+    chain: Scroll_Test,
     transport: http(),
   }),
   [base.id]: createPublicClient({

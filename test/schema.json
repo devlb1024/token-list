@@ -1,8 +1,8 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "pancakeswap",
-  "title": "PancakeSwap Token List",
-  "description": "Schema for lists of tokens compatible with the PancakeSwap Interface, including Uniswap standard and PancakeSwap Aptos",
+  "$id": "kurama",
+  "title": "Kurama Token List",
+  "description": "Schema for lists of tokens compatible with the Kurama Interface, including Uniswap standard and Kurama Swap",
   "definitions": {
     "Version": {
       "type": "object",

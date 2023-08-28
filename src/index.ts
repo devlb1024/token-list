@@ -43,14 +43,6 @@ async function dealCommand() {
       checkListName();
       await checksumAddresses(listName);
       await saveList(await buildList(listName, versionBump as VersionBump), listName);
-      // const proc = Bun.spawn({
-      //   cmd: ["bun", "test", "-t", `${listName}`],
-      // });
-  
-      // await proc.exited;
-      // if (proc.exitCode !== 0) {
-      //   throw new Error(`Failed to generate list ${listName}`);
-      // }
       break;
     // case "fetch":
     //   checkListName();
