@@ -1,9 +1,10 @@
-import { LISTS } from "./constants.js";
+import { LISTS } from "./constants";
+import { buildPath, tokens_directory } from "./index";
+import { readJSONFile } from "./utils/jsonUtils";
 
 const compareLists = async (listName: string) => {
-  const src = await Bun.file(`src/tokens/${listName}.json`).json();
-  const actual = await Bun.file(`lists/${listName}.json`).json();
-
+  const src = await readJSONFile(buildPath(tokens_directory, `${listName}.json`)); 
+  const actual = await readJSONFile(buildPath("lists",`${listName}.json`));
   // const { name, src, actual } = listPair;
   if (src.length !== actual.tokens.length) {
     throw Error(

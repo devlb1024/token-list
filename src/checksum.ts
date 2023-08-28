@@ -1,9 +1,11 @@
 import { getAddress } from "@ethersproject/address";
+import { buildPath, tokens_directory } from ".";
+import { writeFileSync } from "fs";
+import { readJSONFile } from "./utils/jsonUtils";
 
 const checksumAddresses = async (listName: string): Promise<void> => {
   let badChecksumCount = 0;
-  const file = Bun.file(`src/tokens/${listName}.json`);
-  const listToChecksum = await file.json();
+  const listToChecksum = readJSONFile(buildPath(tokens_directory,`${listName}.json`));
 
   const updatedList = listToChecksum.reduce((tokenList, token) => {
     const checksummedAddress = getAddress(token.address);
@@ -17,10 +19,10 @@ const checksumAddresses = async (listName: string): Promise<void> => {
 
   if (badChecksumCount > 0) {
     console.info(`Found and fixed ${badChecksumCount} non-checksummed addreses`);
-    const file = Bun.file(`src/tokens/${listName}.json`);
+    const file = buildPath(tokens_directory,`${listName}.json`)
     console.info("Saving updated list");
     const stringifiedList = JSON.stringify(updatedList, null, 2);
-    await Bun.write(file, stringifiedList);
+    await writeFileSync(file, stringifiedList)
     console.info("Checksumming done!");
   } else {
     console.info("All addresses are already checksummed");

@@ -1,5 +1,7 @@
 import { TokenList } from "@pancakeswap/token-lists";
-import { LISTS } from "./constants.js";
+import { LISTS } from "./constants";
+import { readJSONFile, writeJSONFile } from "./utils/jsonUtils";
+import { buildPath, tokens_directory } from "./index";
 
 export enum VersionBump {
   "major" = "major",
@@ -28,9 +30,11 @@ const getNextVersion = (currentVersion: Version, versionBump?: VersionBump) => {
 
 export const buildList = async (listName: string, versionBump?: VersionBump): Promise<TokenList> => {
   const { name, keywords, logoURI, sort } = LISTS[listName as keyof typeof LISTS];
-  const { version: currentVersion } = await Bun.file(`lists/${listName}.json`).json();
+  const { version: currentVersion } = await readJSONFile(buildPath("lists",`${listName}.json`));
   const version = getNextVersion(currentVersion, versionBump);
-  const list = await Bun.file(`src/tokens/${listName}.json`).json();
+  console.log("version: " , version);
+  
+  const list = await await readJSONFile(buildPath(tokens_directory,`${listName}.json`));
   return {
     name,
     timestamp: new Date().toISOString(),
@@ -56,8 +60,9 @@ export const buildList = async (listName: string, versionBump?: VersionBump): Pr
 };
 
 export const saveList = async (tokenList: TokenList, listName: string): Promise<void> => {
-  const tokenListFile = Bun.file(new URL(`../lists/${listName}.json`, import.meta.url).pathname);
   const stringifiedList = JSON.stringify(tokenList, null, 2);
-  await Bun.write(tokenListFile, stringifiedList);
+  const tokenListFile = buildPath("lists",`${listName}.json`)
+  await writeJSONFile(tokenListFile,stringifiedList)
   console.info("Token list saved to ", tokenListFile);
 };
+

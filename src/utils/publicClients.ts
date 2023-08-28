@@ -1,5 +1,5 @@
 import { createPublicClient, http, Chain } from "viem";
-import { arbitrum, base, bsc, mainnet, polygonZkEvm, zkSync } from "viem/chains";
+import { arbitrum, base, bsc, mainnet, polygonZkEvm, scrollSepolia, scrollTestnet, zkSync } from "viem/chains";
 
 
 
@@ -69,6 +69,10 @@ export const publicClients = {
   }),
   [linea.id]: createPublicClient({
     chain: linea,
+    transport: http(),
+  }),
+  [scrollTestnet.id]: createPublicClient({
+    chain: scrollTestnet,
     transport: http(),
   }),
   [base.id]: createPublicClient({

@@ -39,7 +39,7 @@ const getTokensChainData = async (listName: string, addressArray?: string[], cha
         name: "decimals",
       },
     ]);
-
+    
     const publicClient = publicClients[chainId as keyof typeof publicClients];
     // eslint-disable-next-line no-await-in-loop
     const tokenInfoResponse = await publicClient.multicall({

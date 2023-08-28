@@ -6,8 +6,8 @@
     "module": "nodenext",
     "esModuleInterop": true,
     "resolveJsonModule": true,
-    "types": ["bun-types"]
+    "types": ["node", "jest"],
   },
-  "include": ["src/**/*.ts", "index.ts", "test/**.ts"],
+  "include": ["src/**/*.ts", "src/index.ts", "test/**.ts"],
   "exclude": ["**/__mocks__/*", "src/mocks/**", "jest.setup.js", "src/utils/abi/types/**"]
 }
