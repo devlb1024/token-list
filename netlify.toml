@@ -2,5 +2,7 @@
   command = "npm run makelist kurama-test"
   publish = "lists"
 
-[headers]
-  Access-Control-Allow-Origin = "*"
+[[headers]]
+  for = "/*" 
+    [headers.values]
+    Access-Control-Allow-Origin = "*"
