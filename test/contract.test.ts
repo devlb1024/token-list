@@ -1,8 +1,11 @@
-import { createTestClient, createWalletClient, getAddress, getContract, http, parseAbi } from "viem";
+import 'isomorphic-fetch'
+import { Hex, createTestClient, createWalletClient, fromHex, getAbiItem, getAddress, getContract, http, parseAbi } from "viem";
 import { erc20ABI } from "../src/utils/abi/erc20";
 import { publicClients } from "../src/utils/publicClients";
 import { privateKeyToAccount } from 'viem/accounts'
 import { foundry, scrollSepolia } from "viem/chains";
+import { KuramaV3FactoryABI } from '../src/utils/abi/KuramaV3Factory';
+
 
 describe("contract", () => {
   it("getContract", async () => {
@@ -25,39 +28,68 @@ describe("contract", () => {
     console.log("chainId : ", {chainId });
   });
 
-  it("createWalletClient", async () => {
-
-    const json = parseAbi([
-      'constructor(string symbol, string name)',
-      'function transferFrom(address from, address to, uint amount)',
-      'function transferFrom(address from, address to, uint amount, bool x)',
-      'function mint(uint amount) payable',
-      'function balanceOf(address owner) view returns (uint)',
-      'event Transfer(address indexed from, address indexed to, uint256 amount)'
-    ])
-
-const address = getAddress('0x8ba1f109551bd432803012645ac136ddd64dba72')
-
-    const account = privateKeyToAccount('0x7656dea46927d34e85d4a4f75c11e5cd25e0aeba91829a2240125f0cf40ac22a')
+  it("getAbi", async () => {
+    const url = "https://sepolia-blockscout.scroll.io/api?module=contract&action=getabi&address=0x11377A6812ddB8BE9B664aCa05dC31d2F196E7f9"
+    const res =  await fetch(url)
+    const json =  await res.json()
+    console.log("res: ", json);
     
-    console.log("account: ", account.address);
-    const client = createWalletClient({
-      account,
-      chain: scrollSepolia,
-      transport: http()
-    })
+  });
 
-   const res = await client.chain
-   console.log("res: ", res);
+  it("KuramaV3FactoryABI", async () => {
+    const publicClient = publicClients[534351];
+
+    // const contract = getContract({
+    //   address: "0x11377A6812ddB8BE9B664aCa05dC31d2F196E7f9",
+    //   abi: KuramaV3FactoryABI,
+    //   publicClient,
+    // });
+
+    // const pool = await contract.read.getPool([
+    //  "0x3d38d54CbD0F6d90Cc3f861cd05e7F5d223Fb9Fe",
+    //  "0x5C1fe01D69d2657455B6D4aE61500F2F42353e10" ,
+    //   100
+    // ])
+
+  //  const res =  publicClient.watchContractEvent({
+  //     address: '0x11377A6812ddB8BE9B664aCa05dC31d2F196E7f9',
+  //     abi: KuramaV3FactoryABI,
+  //     eventName: 'PoolCreated',
+  //     onLogs: (logs) => {
+  //       console.log("-logs--", logs)
+  //     },
+  //     onError: (error) => {
+  //       console.log("-error--", error)
+  //     }
+  //   })
+
+  
+      const filter  =  await publicClient.createContractEventFilter({
+        abi: KuramaV3FactoryABI,
+        address: '0x11377A6812ddB8BE9B664aCa05dC31d2F196E7f9' ,
+        eventName: 'PoolCreated' 
+    })
+        
+    const logs = await publicClient.getFilterChanges({ filter })
+      console.log("logs: ", logs);
+       
   });
 
 
   it("createTestClient", async () => {
-    const client = createTestClient({
-      chain: scrollSepolia,
+    const testClient = createTestClient({
+      chain: foundry,
       mode: 'anvil',
       transport: http(), 
     })
+
+    const impersonateAccount =  await testClient.impersonateAccount({ 
+      address: '0xa5cc3c03994DB5b0d9A5eEdD10CabaB0813678AC'
+    })
+    console.log("impersonateAccount: ", impersonateAccount);
+    
+
+
   });
 
 });
