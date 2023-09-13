@@ -45,7 +45,7 @@ export const buildList = async (listName: string, versionBump?: VersionBump): Pr
     schema: "schema" in LISTS[listName] ? LISTS[listName].schema : undefined,
     // sort them by symbol for easy readability (not applied to default list)
     tokens: sort
-      ? list.sort((t1, t2) => {
+      ? list.sort((t1: any, t2: any) => {
           if (t1.chainId === t2.chainId) {
             // CAKE first in extended list
             if ((t1.symbol === "CAKE") !== (t2.symbol === "CAKE")) {

@@ -2,7 +2,7 @@
   {
     "name": "Kurama test USDT",
     "symbol": "USDT",
-    "address": "0x81CEe0f7b8C8A5ef2a7DD140b90704d3516a78cf",
+    "id": "0x81CEe0f7b8C8A5ef2a7DD140b90704d3516a78cf",
     "chainId": 534351,
     "decimals": 6,
     "logoURI": "https://kurama-token.netlify.app/images/kurama/0x3d38d54cbd0f6d90cc3f861cd05e7f5d223fb9fe.png"
@@ -10,7 +10,7 @@
   {
     "name": "Kurama test USDC",
     "symbol": "USDC",
-    "address": "0x89F61DbAbdA1701b628EccdFCec5F3f2d0fB2958",
+    "id": "0x89F61DbAbdA1701b628EccdFCec5F3f2d0fB2958",
     "chainId": 534351,
     "decimals": 6,
     "logoURI": "https://kurama-token.netlify.app/images/kurama/0x5c1fe01d69d2657455b6d4ae61500f2f42353e10.png"
@@ -18,7 +18,7 @@
   {
     "name": "Kurama test BTC",
     "symbol": "WBTC",
-    "address": "0x28963ef30EfE37a5ab3c6275eBf7d8EA3c254Ef6",
+    "id": "0x28963ef30EfE37a5ab3c6275eBf7d8EA3c254Ef6",
     "chainId": 534351,
     "decimals": 18,
     "logoURI": "https://kurama-token.netlify.app/images/kurama/0x46a4075fc1ba3847c49ce076e89797c0a3160028.png"
@@ -26,7 +26,7 @@
   {
     "name": "Wrapped Ether",
     "symbol": "WETH",
-    "address": "0xa8AEfb1aFD335b43Ec8761bc0dc6fcD8657aAe87",
+    "id": "0xa8AEfb1aFD335b43Ec8761bc0dc6fcD8657aAe87",
     "chainId": 534351,
     "decimals": 18,
     "logoURI": "https://kurama-token.netlify.app/images/kurama/0xa8AEfb1aFD335b43Ec8761bc0dc6fcD8657aAe87.png"

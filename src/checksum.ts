@@ -7,11 +7,11 @@ const checksumAddresses = async (listName: string): Promise<void> => {
   let badChecksumCount = 0;
   const listToChecksum = readJSONFile(buildPath(tokens_directory,`${listName}.json`));
 
-  const updatedList = listToChecksum.reduce((tokenList, token) => {
-    const checksummedAddress = getAddress(token.address);
-    if (checksummedAddress !== token.address) {
+  const updatedList = listToChecksum.reduce((tokenList: any, token: any) => {
+    const checksummedAddress = getAddress(token.id);
+    if (checksummedAddress !== token.id) {
       badChecksumCount += 1;
-      const updatedToken = { ...token, address: checksummedAddress };
+      const updatedToken = { ...token, id: checksummedAddress };
       return [...tokenList, updatedToken];
     }
     return [...tokenList, token];
