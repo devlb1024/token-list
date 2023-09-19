@@ -8,7 +8,7 @@
     "build": "rm -rf ./dist && rollup -c",
     "checksum": "bun run index.ts checksum",
     "generate": "bun run index.ts generate",
-    "makelist": "ts-node src/index.ts makelist",
+    "makelist-testnet": "ts-node src/index.ts makelist kurama-test",
     "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
     "fetch": "bun run index.ts fetch",
     "test": "jest",
