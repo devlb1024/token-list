@@ -1,5 +1,5 @@
 [build]
-  command = "npm run makelist kurama-test"
+  command = "npm run makelist makelist-testnet"
   publish = "lists"
 
 [[headers]]
