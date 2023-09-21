@@ -1,10 +1,10 @@
 {
   "name": "Kurama-test",
-  "timestamp": "2023-09-19T10:24:11.185Z",
+  "timestamp": "2023-09-21T06:45:51.834Z",
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 31
+    "patch": 32
   },
   "logoURI": "https://kurama-token.netlify.app/images/kurama/0x5c1fe01d69d2657455b6d4ae61500f2f42353e10.png",
   "keywords": [
@@ -19,7 +19,7 @@
       "chainId": 534351,
       "decimals": 6,
       "logoURI": "https://kurama-token.netlify.app/images/kurama-test/0x81CEe0f7b8C8A5ef2a7DD140b90704d3516a78cf.png",
-      "coin_priority": 700,
+      "coinPriority": 700,
       "labels": [
         "Stablecoins"
       ]
@@ -31,8 +31,10 @@
       "chainId": 534351,
       "decimals": 6,
       "logoURI": "https://kurama-token.netlify.app/images/kurama-test/0x89F61DbAbdA1701b628EccdFCec5F3f2d0fB2958.png",
-      "coin_priority": 700,
-      "labels": []
+      "coinPriority": 700,
+      "labels": [
+        "Stablecoins"
+      ]
     },
     {
       "name": "Kurama test BTC",
@@ -41,7 +43,7 @@
       "chainId": 534351,
       "decimals": 18,
       "logoURI": "https://kurama-token.netlify.app/images/kurama-test/0x28963ef30EfE37a5ab3c6275eBf7d8EA3c254Ef6.png",
-      "coin_priority": 700,
+      "coinPriority": 700,
       "labels": []
     },
     {
@@ -51,7 +53,7 @@
       "chainId": 534351,
       "decimals": 18,
       "logoURI": "https://kurama-token.netlify.app/images/kurama-test/0xa8AEfb1aFD335b43Ec8761bc0dc6fcD8657aAe87.png",
-      "coin_priority": 700,
+      "coinPriority": 700,
       "labels": []
     }
   ]

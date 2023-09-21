@@ -18,7 +18,7 @@
     "decimals": 6,
     "logoURI": "https://kurama-token.netlify.app/images/kurama-test/0x89F61DbAbdA1701b628EccdFCec5F3f2d0fB2958.png",
     "coinPriority": 700,
-    "labels": []
+    "labels": ["Stablecoins"]
   },
   {
     "name": "Kurama test BTC",
