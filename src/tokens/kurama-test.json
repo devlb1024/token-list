@@ -1,6 +1,6 @@
 [
   {
-    "name": "Kurama test USDT",
+    "name": "Tether USD",
     "symbol": "USDT",
     "id": "0x81CEe0f7b8C8A5ef2a7DD140b90704d3516a78cf",
     "chainId": 534351,
@@ -11,7 +11,7 @@
     
   },
   {
-    "name": "Kurama test USDC",
+    "name": "USD Coin",
     "symbol": "USDC",
     "id": "0x89F61DbAbdA1701b628EccdFCec5F3f2d0fB2958",
     "chainId": 534351,
@@ -21,7 +21,7 @@
     "labels": ["Stablecoins"]
   },
   {
-    "name": "Kurama test BTC",
+    "name": "Test WBTC",
     "symbol": "WBTC",
     "id": "0x28963ef30EfE37a5ab3c6275eBf7d8EA3c254Ef6",
     "chainId": 534351,
