@@ -21,16 +21,6 @@
     "labels": ["Stablecoins"]
   },
   {
-    "name": "Test WBTC",
-    "symbol": "WBTC",
-    "id": "0x28963ef30EfE37a5ab3c6275eBf7d8EA3c254Ef6",
-    "chainId": 534351,
-    "decimals": 18,
-    "logoURI": "https://kurama-token.netlify.app/images/kurama-test/0x28963ef30EfE37a5ab3c6275eBf7d8EA3c254Ef6.png",
-    "coinPriority": 700,
-    "labels": []
-  },
-  {
     "name": "Wrapped Ether",
     "symbol": "ETH",
     "id": "0xa8AEfb1aFD335b43Ec8761bc0dc6fcD8657aAe87",
