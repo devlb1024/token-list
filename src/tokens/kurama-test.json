@@ -34,7 +34,7 @@
   {
     "name": "Wrapped Ether",
     "symbol": "WETH",
-    "id": "0x00000000000000000000000000000000001",
+    "id": "0xa8AEfb1aFD335b43Ec8761bc0dc6fcD8657aAe87",
     "chainId": 534351,
     "decimals": 18,
     "logoURI": "https://scroll-tech.github.io/token-list/data/WETH/logo.png",
