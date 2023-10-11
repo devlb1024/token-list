@@ -1,10 +1,10 @@
 {
   "name": "Kurama",
-  "timestamp": "2023-10-11T04:13:30.410Z",
+  "timestamp": "2023-10-11T04:38:28.106Z",
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 3
+    "patch": 4
   },
   "logoURI": "https://kurama-token.netlify.app/images/kurama/0x5c1fe01d69d2657455b6d4ae61500f2f42353e10.png",
   "keywords": [
@@ -12,15 +12,6 @@
     "default"
   ],
   "tokens": [
-    {
-      "name": "Wrapped Ether",
-      "symbol": "ETH",
-      "id": "0x5300000000000000000000000000000000000004",
-      "chainId": 534352,
-      "decimals": 18,
-      "logoURI": "https://kurama-token.netlify.app/images/kurama/0x5300000000000000000000000000000000000004.png",
-      "labels": []
-    },
     {
       "chainId": 534352,
       "id": "0x79379C0E09a41d7978f883a56246290eE9a8c4d3",
