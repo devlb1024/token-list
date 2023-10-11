@@ -1,10 +1,10 @@
 {
   "name": "Kurama",
-  "timestamp": "2023-10-11T08:56:21.707Z",
+  "timestamp": "2023-10-11T11:19:52.341Z",
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 9
+    "patch": 10
   },
   "logoURI": "https://kurama-token.netlify.app/images/kurama/0x5c1fe01d69d2657455b6d4ae61500f2f42353e10.png",
   "keywords": [
@@ -30,7 +30,7 @@
       "name": "Balancer",
       "symbol": "BAL",
       "decimals": 18,
-      "logoURI": "https://scroll-tech.github.io/token-list/data/BAL/logo.png",
+      "logoURI": "https://kurama-token.netlify.app/images/kurama/0xB755039eDc7910C1F1BD985D48322E55A31AC0bF.png",
       "extensions": {
         "scrollListId": "default",
         "scrollTokenId": "BAL"
@@ -54,7 +54,7 @@
       "name": "Curve DAO",
       "symbol": "CRV",
       "decimals": 18,
-      "logoURI": "https://scroll-tech.github.io/token-list/data/CRV/logo.png",
+      "logoURI": "https://kurama-token.netlify.app/images/kurama/0xB755039eDc7910C1F1BD985D48322E55A31AC0bF.png",
       "extensions": {
         "scrollListId": "default",
         "scrollTokenId": "CRV"
@@ -150,7 +150,7 @@
       "name": "Wrapped BTC",
       "symbol": "WBTC",
       "decimals": 8,
-      "logoURI": "https://scroll-tech.github.io/token-list/data/WBTC/logo.svg",
+      "logoURI": "https://kurama-token.netlify.app/images/kurama/0x3C1BCa5a656e69edCD0D4E36BEbb3FcDAcA60Cf1.png",
       "extensions": {
         "scrollListId": "default",
         "scrollTokenId": "WBTC"
