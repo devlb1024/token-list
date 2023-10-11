@@ -18,7 +18,7 @@
     "name": "Balancer",
     "symbol": "BAL",
     "decimals": 18,
-    "logoURI": "https://kurama-token.netlify.app/images/kurama/0xB755039eDc7910C1F1BD985D48322E55A31AC0bF.png",
+    "logoURI": "https://kurama-token.netlify.app/images/kurama/0x6a28e90582c583fcd3347931c544819C31e9D0e0.png",
     "extensions": {
       "scrollListId": "default",
       "scrollTokenId": "BAL"
