@@ -34,6 +34,7 @@ export const buildList = async (listName: string, versionBump?: VersionBump): Pr
   const version = getNextVersion(currentVersion, versionBump);
   console.log("version: " , version);
   
+  // 处理wrapId
   const list = await  readJSONFile(buildPath(tokens_directory,`${listName}.json`));
   list.forEach((item : any)=> {
     const wrapId = item.wrapId
