@@ -58,6 +58,7 @@
     "symbol": "DAI",
     "decimals": 18,
     "logoURI": "https://scroll-tech.github.io/token-list/data/DAI/logo.svg",
+    "labels": ["Stablecoins"],
     "extensions": {
       "scrollListId": "default",
       "scrollTokenId": "DAI"
@@ -124,6 +125,7 @@
     "symbol": "USDC",
     "decimals": 6,
     "logoURI": "https://scroll-tech.github.io/token-list/data/USDC/logo.svg",
+    "labels": ["Stablecoins"],
     "extensions": {
       "scrollListId": "default",
       "scrollTokenId": "USDC"
@@ -138,6 +140,7 @@
     "symbol": "USDT",
     "decimals": 6,
     "logoURI": "https://scroll-tech.github.io/token-list/data/USDT/logo.svg",
+    "labels": ["Stablecoins"],
     "extensions": {
       "scrollListId": "default",
       "scrollTokenId": "USDT"
