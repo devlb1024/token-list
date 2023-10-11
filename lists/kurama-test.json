@@ -1,10 +1,10 @@
 {
   "name": "Kurama-test",
-  "timestamp": "2023-10-10T07:14:10.419Z",
+  "timestamp": "2023-10-11T08:56:29.742Z",
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 40
+    "patch": 41
   },
   "logoURI": "https://kurama-token.netlify.app/images/kurama/0x5c1fe01d69d2657455b6d4ae61500f2f42353e10.png",
   "keywords": [
@@ -37,8 +37,29 @@
       ]
     },
     {
+      "name": "Test WBTC",
+      "symbol": "WBTC",
+      "id": "0x28963ef30EfE37a5ab3c6275eBf7d8EA3c254Ef6",
+      "chainId": 534351,
+      "decimals": 18,
+      "logoURI": "https://kurama-token.netlify.app/images/kurama-test/0x28963ef30EfE37a5ab3c6275eBf7d8EA3c254Ef6.png",
+      "coinPriority": 700,
+      "labels": []
+    },
+    {
       "name": "Wrapped Ether",
       "symbol": "ETH",
+      "id": "0xa8AEfb1aFD335b43Ec8761bc0dc6fcD8657aAe87",
+      "chainId": 534351,
+      "decimals": 18,
+      "logoURI": "https://kurama-token.netlify.app/images/kurama-test/0xa8AEfb1aFD335b43Ec8761bc0dc6fcD8657aAe87.png",
+      "coinPriority": 700,
+      "isNative": true,
+      "labels": []
+    },
+    {
+      "name": "Wrapped Ether",
+      "symbol": "WETH",
       "id": "0xa8AEfb1aFD335b43Ec8761bc0dc6fcD8657aAe87",
       "chainId": 534351,
       "decimals": 18,

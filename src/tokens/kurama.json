@@ -163,7 +163,7 @@
     "name": "Ether",
     "symbol": "ETH",
     "decimals": 18,
-    "logoURI": "https://scroll-tech.github.io/token-list/data/WETH/logo.png",
+    "logoURI": "https://kurama-token.netlify.app/images/kurama/0x5300000000000000000000000000000000000004.png",
     "isNative": true,
     "extensions": {
       "scrollListId": "default",
