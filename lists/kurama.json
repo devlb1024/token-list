@@ -1,10 +1,10 @@
 {
   "name": "Kurama",
-  "timestamp": "2023-10-11T08:15:45.363Z",
+  "timestamp": "2023-10-11T08:37:42.525Z",
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 6
+    "patch": 8
   },
   "logoURI": "https://kurama-token.netlify.app/images/kurama/0x5c1fe01d69d2657455b6d4ae61500f2f42353e10.png",
   "keywords": [
@@ -67,9 +67,10 @@
       "symbol": "DAI",
       "decimals": 18,
       "logoURI": "https://scroll-tech.github.io/token-list/data/DAI/logo.svg",
-      "labels": [
-        "Stablecoins"
-      ]
+      "extensions": {
+        "scrollListId": "default",
+        "scrollTokenId": "DAI"
+      }
     },
     {
       "chainId": 534352,
@@ -126,9 +127,10 @@
       "symbol": "USDC",
       "decimals": 6,
       "logoURI": "https://scroll-tech.github.io/token-list/data/USDC/logo.svg",
-      "labels": [
-        "Stablecoins"
-      ]
+      "extensions": {
+        "scrollListId": "default",
+        "scrollTokenId": "USDC"
+      }
     },
     {
       "chainId": 534352,
@@ -137,9 +139,10 @@
       "symbol": "USDT",
       "decimals": 6,
       "logoURI": "https://scroll-tech.github.io/token-list/data/USDT/logo.svg",
-      "labels": [
-        "Stablecoins"
-      ]
+      "extensions": {
+        "scrollListId": "default",
+        "scrollTokenId": "USDT"
+      }
     },
     {
       "chainId": 534352,
@@ -156,8 +159,8 @@
     {
       "chainId": 534352,
       "id": "0x5300000000000000000000000000000000000004",
-      "name": "Wrapped Ether",
-      "symbol": "WETH",
+      "name": "Ether",
+      "symbol": "ETH",
       "decimals": 18,
       "logoURI": "https://scroll-tech.github.io/token-list/data/WETH/logo.png",
       "isNative": true,
