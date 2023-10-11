@@ -161,9 +161,10 @@
     "chainId": 534352,
     "id": "0x5300000000000000000000000000000000000004",
     "name": "Wrapped Ether",
-    "symbol": "WETH",
+    "symbol": "ETH",
     "decimals": 18,
     "logoURI": "https://scroll-tech.github.io/token-list/data/WETH/logo.png",
+    "isNative": true,
     "extensions": {
       "scrollListId": "default",
       "scrollTokenId": "WETH"
