@@ -35,6 +35,12 @@ export const buildList = async (listName: string, versionBump?: VersionBump): Pr
   console.log("version: " , version);
   
   const list = await  readJSONFile(buildPath(tokens_directory,`${listName}.json`));
+  list.forEach((item : any)=> {
+    const wrapId = item.wrapId
+    if(!wrapId){
+      item.wrapId = item.id
+    }
+  })
   return {
     name,
     timestamp: new Date().toISOString(),
