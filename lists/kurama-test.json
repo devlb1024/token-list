@@ -1,10 +1,10 @@
 {
   "name": "Kurama-test",
-  "timestamp": "2023-10-11T09:38:09.722Z",
+  "timestamp": "2023-10-11T10:32:57.664Z",
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 42
+    "patch": 43
   },
   "logoURI": "https://kurama-token.netlify.app/images/kurama/0x5c1fe01d69d2657455b6d4ae61500f2f42353e10.png",
   "keywords": [
@@ -35,16 +35,6 @@
       "labels": [
         "Stablecoins"
       ]
-    },
-    {
-      "name": "Test WBTC",
-      "symbol": "WBTC",
-      "id": "0x28963ef30EfE37a5ab3c6275eBf7d8EA3c254Ef6",
-      "chainId": 534351,
-      "decimals": 18,
-      "logoURI": "https://kurama-token.netlify.app/images/kurama-test/0x28963ef30EfE37a5ab3c6275eBf7d8EA3c254Ef6.png",
-      "coinPriority": 700,
-      "labels": []
     },
     {
       "name": "Wrapped Ether",
