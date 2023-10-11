@@ -44,7 +44,7 @@
     "name": "Curve DAO",
     "symbol": "CRV",
     "decimals": 18,
-    "logoURI": "https://scroll-tech.github.io/token-list/data/CRV/logo.png",
+    "logoURI": "https://kurama-token.netlify.app/images/kurama/0xB755039eDc7910C1F1BD985D48322E55A31AC0bF.png",
     "extensions": {
       "scrollListId": "default",
       "scrollTokenId": "CRV"
@@ -150,7 +150,7 @@
     "name": "Wrapped BTC",
     "symbol": "WBTC",
     "decimals": 8,
-    "logoURI": "https://scroll-tech.github.io/token-list/data/WBTC/logo.svg",
+    "logoURI": "https://kurama-token.netlify.app/images/kurama/0x3C1BCa5a656e69edCD0D4E36BEbb3FcDAcA60Cf1.png",
     "extensions": {
       "scrollListId": "default",
       "scrollTokenId": "WBTC"
