@@ -164,12 +164,8 @@
     "symbol": "ETH",
     "decimals": 18,
     "logoURI": "https://scroll-tech.github.io/token-list/data/WETH/logo.png",
-    "isNative": true,
-    "extensions": {
-      "scrollListId": "default",
-      "scrollTokenId": "WETH"
-    }
-  },
+    "isNative": true
+  }
  
   {
     "chainId": 534352,
