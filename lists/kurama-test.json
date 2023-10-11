@@ -1,10 +1,10 @@
 {
   "name": "Kurama-test",
-  "timestamp": "2023-10-11T08:56:29.742Z",
+  "timestamp": "2023-10-11T09:38:09.722Z",
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 41
+    "patch": 42
   },
   "logoURI": "https://kurama-token.netlify.app/images/kurama/0x5c1fe01d69d2657455b6d4ae61500f2f42353e10.png",
   "keywords": [
@@ -63,7 +63,7 @@
       "id": "0xa8AEfb1aFD335b43Ec8761bc0dc6fcD8657aAe87",
       "chainId": 534351,
       "decimals": 18,
-      "logoURI": "https://kurama-token.netlify.app/images/kurama-test/0xa8AEfb1aFD335b43Ec8761bc0dc6fcD8657aAe87.png",
+      "logoURI": "https://scroll-tech.github.io/token-list/data/WETH/logo.png",
       "coinPriority": 700,
       "labels": []
     }
