@@ -10,6 +10,7 @@
     "generate": "bun run index.ts generate",
     "makelist-testnet": "ts-node src/index.ts makelist kurama-test",
     "makelist": "ts-node src/index.ts makelist kurama",
+    "makelist-pre": "ts-node src/index.ts makelist kurama-pre",
     "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
     "fetch": "bun run index.ts fetch",
     "test": "jest",
