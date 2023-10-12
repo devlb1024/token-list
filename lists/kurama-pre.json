@@ -1,10 +1,10 @@
 {
   "name": "Kurama",
-  "timestamp": "2023-10-12T10:42:10.069Z",
+  "timestamp": "2023-10-12T10:54:54.164Z",
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 1
+    "patch": 2
   },
   "logoURI": "https://kurama-token.netlify.app/images/kurama/0x5c1fe01d69d2657455b6d4ae61500f2f42353e10.png",
   "keywords": [
@@ -18,7 +18,7 @@
       "name": "Ether",
       "symbol": "ETH",
       "decimals": 18,
-      "logoURI": "https://scroll-tech.github.io/token-list/data/WETH/logo.png",
+      "logoURI": "https://kurama-token.netlify.app/images/kurama-test/0xa8AEfb1aFD335b43Ec8761bc0dc6fcD8657aAe87.png",
       "isNative": true,
       "extensions": {
         "scrollListId": "default",
