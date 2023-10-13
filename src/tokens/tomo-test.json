@@ -27,7 +27,9 @@
     "chainId": 89,
     "decimals": 6,
     "logoURI": "https://tomo-token.netlify.app/images/tomo-test/0xF5E2f4af2c55548EA4bF97beE2C32C8d292b7dDD.png",
-    "labels": ["Stablecoins"]
+    "labels": [
+      "Stablecoins"
+    ]
   },
   {
     "name": "Dojo test USDT",
@@ -36,12 +38,14 @@
     "chainId": 89,
     "decimals": 6,
     "logoURI": "https://tomo-token.netlify.app/images/tomo-test/0x5210419E3096C507FD7ac5FD0Ad2aBb513621B29.png",
-    "labels": ["Stablecoins"]
+    "labels": [
+      "Stablecoins"
+    ]
   },
   {
     "name": "Dojo test USDT",
     "symbol": "USDT",
-    "id": "0x1806754736bb886707ee60e871b25cf043a706de",
+    "id": "0x1806754736BB886707EE60e871b25Cf043A706de",
     "chainId": 89,
     "decimals": 18,
     "logoURI": "https://tomo-token.netlify.app/images/tomo-test/0x1806754736bb886707ee60e871b25cf043a706de.png"
