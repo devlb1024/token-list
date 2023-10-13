@@ -1,10 +1,10 @@
 {
   "name": "tomo-test",
-  "timestamp": "2023-10-13T10:54:28.161Z",
+  "timestamp": "2023-10-13T10:58:46.344Z",
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 1
+    "patch": 2
   },
   "logoURI": "https://tomo-token.netlify.app/images/tomo-test/0xc12c6CBbc9c26D73399bc430fA9AD4365d523Ab4.png",
   "keywords": [
@@ -13,12 +13,12 @@
   ],
   "tokens": [
     {
-      "name": "Ether",
+      "name": "TOMO",
       "symbol": "TOMO",
       "id": "0xc12c6CBbc9c26D73399bc430fA9AD4365d523Ab4",
       "chainId": 89,
       "decimals": 18,
-      "logoURI": "https://tomo-token.netlify.app/images/tomo-test/0xc12c6CBbc9c26D73399bc430fA9AD4365d523Ab4.png",
+      "logoURI": "https://dojo-token.netlify.app/images/tomo-test/0xc12c6CBbc9c26D73399bc430fA9AD4365d523Ab4.png",
       "isNative": true,
       "labels": [],
       "wrapId": "0xc12c6CBbc9c26D73399bc430fA9AD4365d523Ab4"
@@ -30,7 +30,7 @@
       "wrapId": "0x0000000000000000000000000000000000000001",
       "chainId": 89,
       "decimals": 18,
-      "logoURI": "https://tomo-token.netlify.app/images/tomo-test/0x0000000000000000000000000000000000000001.png",
+      "logoURI": "https://dojo-token.netlify.app/images/tomo-test/0x0000000000000000000000000000000000000001.png",
       "isNative": false,
       "labels": []
     },
@@ -40,7 +40,7 @@
       "id": "0xF5E2f4af2c55548EA4bF97beE2C32C8d292b7dDD",
       "chainId": 89,
       "decimals": 6,
-      "logoURI": "https://tomo-token.netlify.app/images/tomo-test/0xF5E2f4af2c55548EA4bF97beE2C32C8d292b7dDD.png",
+      "logoURI": "https://dojo-token.netlify.app/images/tomo-test/0xF5E2f4af2c55548EA4bF97beE2C32C8d292b7dDD.png",
       "labels": [
         "Stablecoins"
       ],
@@ -52,7 +52,7 @@
       "id": "0x5210419E3096C507FD7ac5FD0Ad2aBb513621B29",
       "chainId": 89,
       "decimals": 6,
-      "logoURI": "https://tomo-token.netlify.app/images/tomo-test/0x5210419E3096C507FD7ac5FD0Ad2aBb513621B29.png",
+      "logoURI": "https://dojo-token.netlify.app/images/tomo-test/0x5210419E3096C507FD7ac5FD0Ad2aBb513621B29.png",
       "labels": [
         "Stablecoins"
       ],
@@ -64,7 +64,7 @@
       "id": "0x1806754736BB886707EE60e871b25Cf043A706de",
       "chainId": 89,
       "decimals": 18,
-      "logoURI": "https://tomo-token.netlify.app/images/tomo-test/0x1806754736bb886707ee60e871b25cf043a706de.png",
+      "logoURI": "https://dojo-token.netlify.app/images/tomo-test/0x1806754736bb886707ee60e871b25cf043a706de.png",
       "wrapId": "0x1806754736BB886707EE60e871b25Cf043A706de"
     }
   ]
