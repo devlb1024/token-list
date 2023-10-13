@@ -11,6 +11,7 @@
     "makelist-testnet": "ts-node src/index.ts makelist kurama-test",
     "makelist": "ts-node src/index.ts makelist kurama",
     "makelist-pre": "ts-node src/index.ts makelist kurama-pre",
+    "tomo-testnet": "ts-node src/index.ts makelist tomo-test",
     "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
     "fetch": "bun run index.ts fetch",
     "test": "jest",

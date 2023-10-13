@@ -1,0 +1,49 @@
+[
+  {
+    "name": "Ether",
+    "symbol": "TOMO",
+    "id": "0xc12c6CBbc9c26D73399bc430fA9AD4365d523Ab4",
+    "chainId": 89,
+    "decimals": 18,
+    "logoURI": "https://tomo-token.netlify.app/images/tomo-test/0xc12c6CBbc9c26D73399bc430fA9AD4365d523Ab4.png",
+    "isNative": true,
+    "labels": []
+  },
+  {
+    "name": "Wrapped TOMO",
+    "symbol": "WTOMO",
+    "id": "0xc12c6CBbc9c26D73399bc430fA9AD4365d523Ab4",
+    "wrapId": "0x0000000000000000000000000000000000000001",
+    "chainId": 89,
+    "decimals": 18,
+    "logoURI": "https://tomo-token.netlify.app/images/tomo-test/0x0000000000000000000000000000000000000001.png",
+    "isNative": false,
+    "labels": []
+  },
+  {
+    "name": "Dojo test USDC",
+    "symbol": "USDC",
+    "id": "0xF5E2f4af2c55548EA4bF97beE2C32C8d292b7dDD",
+    "chainId": 89,
+    "decimals": 6,
+    "logoURI": "https://tomo-token.netlify.app/images/tomo-test/0xF5E2f4af2c55548EA4bF97beE2C32C8d292b7dDD.png",
+    "labels": ["Stablecoins"]
+  },
+  {
+    "name": "Dojo test USDT",
+    "symbol": "USDT",
+    "id": "0x5210419E3096C507FD7ac5FD0Ad2aBb513621B29",
+    "chainId": 89,
+    "decimals": 6,
+    "logoURI": "https://tomo-token.netlify.app/images/tomo-test/0x5210419E3096C507FD7ac5FD0Ad2aBb513621B29.png",
+    "labels": ["Stablecoins"]
+  },
+  {
+    "name": "Dojo test USDT",
+    "symbol": "USDT",
+    "id": "0x1806754736bb886707ee60e871b25cf043a706de",
+    "chainId": 89,
+    "decimals": 18,
+    "logoURI": "https://tomo-token.netlify.app/images/tomo-test/0x1806754736bb886707ee60e871b25cf043a706de.png"
+  }
+]
