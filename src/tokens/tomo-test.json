@@ -43,8 +43,8 @@
     ]
   },
   {
-    "name": "Dojo test USDT",
-    "symbol": "USDT",
+    "name": "Dojo test WBTC",
+    "symbol": "WBTC",
     "id": "0x1806754736BB886707EE60e871b25Cf043A706de",
     "chainId": 89,
     "decimals": 18,

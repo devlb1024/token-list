@@ -1,12 +1,12 @@
 {
   "name": "tomo-test",
-  "timestamp": "2023-10-13T10:58:46.344Z",
+  "timestamp": "2023-10-18T11:39:04.415Z",
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 2
+    "patch": 3
   },
-  "logoURI": "https://tomo-token.netlify.app/images/tomo-test/0xc12c6CBbc9c26D73399bc430fA9AD4365d523Ab4.png",
+  "logoURI": "https://dojo-token.netlify.app/images/tomo-test/0xc12c6CBbc9c26D73399bc430fA9AD4365d523Ab4.png",
   "keywords": [
     "tomo",
     "default"
@@ -59,8 +59,8 @@
       "wrapId": "0x5210419E3096C507FD7ac5FD0Ad2aBb513621B29"
     },
     {
-      "name": "Dojo test USDT",
-      "symbol": "USDT",
+      "name": "Dojo test WBTC",
+      "symbol": "WBTC",
       "id": "0x1806754736BB886707EE60e871b25Cf043A706de",
       "chainId": 89,
       "decimals": 18,
