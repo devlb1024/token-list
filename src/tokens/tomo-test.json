@@ -41,13 +41,5 @@
     "labels": [
       "Stablecoins"
     ]
-  },
-  {
-    "name": "Dojo test WBTC",
-    "symbol": "WBTC",
-    "id": "0x1806754736BB886707EE60e871b25Cf043A706de",
-    "chainId": 89,
-    "decimals": 18,
-    "logoURI": "https://dojo-token.netlify.app/images/tomo-test/0x1806754736bb886707ee60e871b25cf043a706de.png"
   }
 ]
