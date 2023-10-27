@@ -19,5 +19,57 @@
     "logoURI": "https://dojo-token.netlify.app/images/tomo/0x0000000000000000000000000000000000000001.png",
     "isNative": false,
     "labels": []
+  },
+  {
+    "name": "Coin98",
+    "symbol": "C98",
+    "id": "0x0Fd0288AAAE91eaF935e2eC14b23486f86516c8C",
+    "chainId": 88,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/tomochain/tokens/master/tokens/0x0fd0288aaae91eaf935e2ec14b23486f86516c8c.png",
+    "isNative": false,
+    "labels": []
+  },
+  {
+    "name": "Tether",
+    "symbol": "USDT",
+    "id": "0x381B31409e4D220919B2cFF012ED94d70135A59e",
+    "chainId": 88,
+    "decimals": 6,
+    "logoURI": "https://dojo-token.netlify.app/images/tomo/0x381B31409e4D220919B2cFF012ED94d70135A59e.png",
+    "isNative": false,
+    "labels": [
+      "Stablecoins"
+    ]
+  },
+  {
+    "name": "Wrapped BTC",
+    "symbol": "WBTC",
+    "id": "0x503B2dDc059b81788FD1239561596614b27fAADE",
+    "chainId": 88,
+    "decimals": 8,
+    "logoURI": "https://dojo-token.netlify.app/images/tomo/0x503B2dDc059b81788FD1239561596614b27fAADE.png",
+    "isNative": false,
+    "labels": []
+  },
+  {
+    "name": "TomoChain-ETH",
+    "symbol": "tETH",
+    "id": "0xA1Ff8559646a79e47ECDfaCA60272F3081998569",
+    "chainId": 88,
+    "decimals": 18,
+    "logoURI": "https://dojo-token.netlify.app/images/tomo/0xA1Ff8559646a79e47ECDfaCA60272F3081998569.png",
+    "isNative": false,
+    "labels": []
+  },
+  {
+    "name": "Coin98 Dollar",
+    "symbol": "CUSD",
+    "id": "0xb3008E7156Ae2312b49B5200C3E1C3e80E529feb",
+    "chainId": 88,
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/tomochain/tokens/master/tokens/0xb3008e7156ae2312b49b5200c3e1c3e80e529feb.png",
+    "isNative": false,
+    "labels": []
   }
 ]
