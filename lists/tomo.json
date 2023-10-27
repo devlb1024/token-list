@@ -1,10 +1,10 @@
 {
   "name": "tomo",
-  "timestamp": "2023-10-27T05:56:02.801Z",
+  "timestamp": "2023-10-27T06:31:41.455Z",
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 2
+    "patch": 3
   },
   "logoURI": "https://dojo-token.netlify.app/images/tomo/0xB1f66997A5760428D3a87D68b90BfE0aE64121cC.png",
   "keywords": [
@@ -24,61 +24,15 @@
       "wrapId": "0xB1f66997A5760428D3a87D68b90BfE0aE64121cC"
     },
     {
-      "name": "Wrapped TOMO",
-      "symbol": "WTOMO",
-      "id": "0xB1f66997A5760428D3a87D68b90BfE0aE64121cC",
-      "wrapId": "0x0000000000000000000000000000000000000001",
-      "chainId": 88,
-      "decimals": 18,
-      "logoURI": "https://dojo-token.netlify.app/images/tomo/0x0000000000000000000000000000000000000001.png",
-      "isNative": false,
-      "labels": []
-    },
-    {
       "name": "Coin98",
       "symbol": "C98",
       "id": "0x0Fd0288AAAE91eaF935e2eC14b23486f86516c8C",
       "chainId": 88,
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/tomochain/tokens/master/tokens/0x0fd0288aaae91eaf935e2ec14b23486f86516c8c.png",
+      "logoURI": "https://dojo-token.netlify.app/images/tomo/0x0Fd0288AAAE91eaF935e2eC14b23486f86516c8C.png",
       "isNative": false,
       "labels": [],
       "wrapId": "0x0Fd0288AAAE91eaF935e2eC14b23486f86516c8C"
-    },
-    {
-      "name": "Tether",
-      "symbol": "USDT",
-      "id": "0x381B31409e4D220919B2cFF012ED94d70135A59e",
-      "chainId": 88,
-      "decimals": 6,
-      "logoURI": "https://dojo-token.netlify.app/images/tomo/0x381B31409e4D220919B2cFF012ED94d70135A59e.png",
-      "isNative": false,
-      "labels": [
-        "Stablecoins"
-      ],
-      "wrapId": "0x381B31409e4D220919B2cFF012ED94d70135A59e"
-    },
-    {
-      "name": "Wrapped BTC",
-      "symbol": "WBTC",
-      "id": "0x503B2dDc059b81788FD1239561596614b27fAADE",
-      "chainId": 88,
-      "decimals": 8,
-      "logoURI": "https://dojo-token.netlify.app/images/tomo/0x503B2dDc059b81788FD1239561596614b27fAADE.png",
-      "isNative": false,
-      "labels": [],
-      "wrapId": "0x503B2dDc059b81788FD1239561596614b27fAADE"
-    },
-    {
-      "name": "TomoChain-ETH",
-      "symbol": "tETH",
-      "id": "0xA1Ff8559646a79e47ECDfaCA60272F3081998569",
-      "chainId": 88,
-      "decimals": 18,
-      "logoURI": "https://dojo-token.netlify.app/images/tomo/0xA1Ff8559646a79e47ECDfaCA60272F3081998569.png",
-      "isNative": false,
-      "labels": [],
-      "wrapId": "0xA1Ff8559646a79e47ECDfaCA60272F3081998569"
     },
     {
       "name": "Coin98 Dollar",
@@ -86,7 +40,7 @@
       "id": "0xb3008E7156Ae2312b49B5200C3E1C3e80E529feb",
       "chainId": 88,
       "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/tomochain/tokens/master/tokens/0xb3008e7156ae2312b49b5200c3e1c3e80e529feb.png",
+      "logoURI": "https://dojo-token.netlify.app/images/tomo/0xb3008E7156Ae2312b49B5200C3E1C3e80E529feb.png",
       "isNative": false,
       "labels": [],
       "wrapId": "0xb3008E7156Ae2312b49B5200C3E1C3e80E529feb"
