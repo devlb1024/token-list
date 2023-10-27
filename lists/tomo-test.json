@@ -1,10 +1,10 @@
 {
   "name": "tomo-test",
-  "timestamp": "2023-10-26T03:07:10.434Z",
+  "timestamp": "2023-10-27T08:49:54.460Z",
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 4
+    "patch": 6
   },
   "logoURI": "https://dojo-token.netlify.app/images/tomo-test/0xc12c6CBbc9c26D73399bc430fA9AD4365d523Ab4.png",
   "keywords": [
@@ -13,7 +13,7 @@
   ],
   "tokens": [
     {
-      "name": "TOMO",
+      "name": "TomoChain",
       "symbol": "TOMO",
       "id": "0xc12c6CBbc9c26D73399bc430fA9AD4365d523Ab4",
       "chainId": 89,
