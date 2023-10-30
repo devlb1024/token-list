@@ -1,10 +1,10 @@
 {
   "name": "tomo",
-  "timestamp": "2023-10-30T02:37:22.381Z",
+  "timestamp": "2023-10-30T07:11:58.726Z",
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 6
+    "patch": 7
   },
   "logoURI": "https://dojo-token.netlify.app/images/tomo/0xB1f66997A5760428D3a87D68b90BfE0aE64121cC.png",
   "keywords": [
@@ -53,7 +53,9 @@
       "decimals": 6,
       "logoURI": "https://dojo-token.netlify.app/images/tomo/0xb3008E7156Ae2312b49B5200C3E1C3e80E529feb.png",
       "isNative": false,
-      "labels": [],
+      "labels": [
+        "Stablecoins"
+      ],
       "wrapId": "0xb3008E7156Ae2312b49B5200C3E1C3e80E529feb"
     }
   ]
