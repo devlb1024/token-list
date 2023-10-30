@@ -21,7 +21,7 @@
     "labels": []
   },
   {
-    "name": "Dojo test USDC",
+    "name": "USD Coin",
     "symbol": "USDC",
     "id": "0xF5E2f4af2c55548EA4bF97beE2C32C8d292b7dDD",
     "chainId": 89,
@@ -32,7 +32,7 @@
     ]
   },
   {
-    "name": "Dojo test USDT",
+    "name": "Tether",
     "symbol": "USDT",
     "id": "0x5210419E3096C507FD7ac5FD0Ad2aBb513621B29",
     "chainId": 89,
