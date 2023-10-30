@@ -38,6 +38,8 @@
     "decimals": 6,
     "logoURI": "https://dojo-token.netlify.app/images/tomo/0xb3008E7156Ae2312b49B5200C3E1C3e80E529feb.png",
     "isNative": false,
-    "labels": []
+    "labels": [
+      "Stablecoins"
+    ]
   }
 ]
