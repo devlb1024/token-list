@@ -7,6 +7,7 @@ const compareLists = async (listName: string) => {
   const actual = await readJSONFile(buildPath("lists",`${listName}.json`));
   // const { name, src, actual } = listPair;
   if (src.length !== actual.tokens.length) {
+    //
     throw Error(
       `List ${listName} seems to be not properly regenerated. Soure file has ${src.length} tokens but actual list has ${actual.tokens.length}. Did you forget to run yarn makelist?`
     );
