@@ -10,6 +10,17 @@
     "labels": []
   },
   {
+    "name": "Wrapped TOMO",
+    "symbol": "WTOMO",
+    "id": "0xB1f66997A5760428D3a87D68b90BfE0aE64121cC",
+    "wrapId": "0x0000000000000000000000000000000000000001",
+    "chainId": 88,
+    "decimals": 18,
+    "logoURI": "https://dojo-token.netlify.app/images/tomo/0x0000000000000000000000000000000000000001.png",
+    "isNative": false,
+    "labels": []
+  },
+  {
     "name": "Coin98",
     "symbol": "C98",
     "id": "0x0Fd0288AAAE91eaF935e2eC14b23486f86516c8C",

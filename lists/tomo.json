@@ -1,10 +1,10 @@
 {
   "name": "tomo",
-  "timestamp": "2023-10-27T11:28:35.195Z",
+  "timestamp": "2023-10-30T02:37:22.381Z",
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 5
+    "patch": 6
   },
   "logoURI": "https://dojo-token.netlify.app/images/tomo/0xB1f66997A5760428D3a87D68b90BfE0aE64121cC.png",
   "keywords": [
@@ -22,6 +22,17 @@
       "isNative": true,
       "labels": [],
       "wrapId": "0xB1f66997A5760428D3a87D68b90BfE0aE64121cC"
+    },
+    {
+      "name": "Wrapped TOMO",
+      "symbol": "WTOMO",
+      "id": "0xB1f66997A5760428D3a87D68b90BfE0aE64121cC",
+      "wrapId": "0x0000000000000000000000000000000000000001",
+      "chainId": 88,
+      "decimals": 18,
+      "logoURI": "https://dojo-token.netlify.app/images/tomo/0x0000000000000000000000000000000000000001.png",
+      "isNative": false,
+      "labels": []
     },
     {
       "name": "Coin98",
