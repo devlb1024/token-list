@@ -1,10 +1,10 @@
 {
   "name": "tomo-test",
-  "timestamp": "2023-10-31T06:27:13.572Z",
+  "timestamp": "2023-10-31T08:42:34.810Z",
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 10
+    "patch": 11
   },
   "logoURI": "https://dojo-token.netlify.app/images/tomo-test/0xc12c6CBbc9c26D73399bc430fA9AD4365d523Ab4.png",
   "keywords": [
@@ -20,7 +20,7 @@
       "decimals": 18,
       "logoURI": "https://dojo-token.netlify.app/images/tomo-test/0xc12c6CBbc9c26D73399bc430fA9AD4365d523Ab4.png",
       "isNative": true,
-      "type": "TRC20",
+      "type": "trc20",
       "labels": [],
       "wrapId": "0xc12c6CBbc9c26D73399bc430fA9AD4365d523Ab4"
     },
@@ -33,7 +33,7 @@
       "decimals": 18,
       "logoURI": "https://dojo-token.netlify.app/images/tomo-test/0x0000000000000000000000000000000000000001.png",
       "isNative": false,
-      "type": "TRC20",
+      "type": "trc20",
       "labels": []
     },
     {
@@ -43,7 +43,7 @@
       "chainId": 89,
       "decimals": 6,
       "logoURI": "https://dojo-token.netlify.app/images/tomo-test/0xF5E2f4af2c55548EA4bF97beE2C32C8d292b7dDD.png",
-      "type": "TRC20",
+      "type": "trc20",
       "labels": [
         "Stablecoins"
       ],
@@ -56,7 +56,7 @@
       "chainId": 89,
       "decimals": 6,
       "logoURI": "https://dojo-token.netlify.app/images/tomo-test/0x5210419E3096C507FD7ac5FD0Ad2aBb513621B29.png",
-      "type": "TRC20",
+      "type": "trc20",
       "labels": [
         "Stablecoins"
       ],
