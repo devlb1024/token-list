@@ -7,7 +7,7 @@
     "decimals": 18,
     "logoURI": "https://dojo-token.netlify.app/images/tomo/0xB1f66997A5760428D3a87D68b90BfE0aE64121cC.png",
     "isNative": true,
-    "type": "TRC20",
+    "type": "trc20",
     "labels": []
   },
   {
@@ -19,7 +19,7 @@
     "decimals": 18,
     "logoURI": "https://dojo-token.netlify.app/images/tomo/0x0000000000000000000000000000000000000001.png",
     "isNative": false,
-    "type": "TRC20",
+    "type": "trc20",
     "labels": []
   },
   {
@@ -30,7 +30,7 @@
     "decimals": 18,
     "logoURI": "https://dojo-token.netlify.app/images/tomo/0x0Fd0288AAAE91eaF935e2eC14b23486f86516c8C.png",
     "isNative": false,
-    "type": "TRC25",
+    "type": "trc25",
     "labels": []
   },
   {
@@ -41,7 +41,7 @@
     "decimals": 6,
     "logoURI": "https://dojo-token.netlify.app/images/tomo/0xb3008E7156Ae2312b49B5200C3E1C3e80E529feb.png",
     "isNative": false,
-    "type": "TRC25",
+    "type": "trc25",
     "labels": [
       "Stablecoins"
     ]
