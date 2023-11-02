@@ -13,6 +13,7 @@
     "makelist-pre": "ts-node src/index.ts makelist kurama-pre",
     "makelist-tomo": "ts-node src/index.ts makelist tomo",
     "makelist-tomo-testnet": "ts-node src/index.ts makelist tomo-test",
+    "makelist-vic-test": "ts-node src/index.ts makelist vic-test",
     "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
     "fetch": "bun run index.ts fetch",
     "test": "jest",

@@ -23,6 +23,12 @@ export const LISTS = {
     logoURI: "https://dojo-token.netlify.app/images/tomo-test/0xc12c6CBbc9c26D73399bc430fA9AD4365d523Ab4.png",
     sort: false,
   },
+  "vic-test": {
+    name: "vic-test",
+    keywords: ["tomo", "default"],
+    logoURI: "https://dojo-token.netlify.app/images/vic-test/0xc12c6CBbc9c26D73399bc430fA9AD4365d523Ab4.png",
+    sort: false,
+  },
   "tomo": {
     name: "tomo",
     keywords: ["tomo", "default"],
