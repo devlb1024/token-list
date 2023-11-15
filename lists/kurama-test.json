@@ -1,10 +1,10 @@
 {
   "name": "Kurama-test",
-  "timestamp": "2023-10-12T06:44:18.738Z",
+  "timestamp": "2023-11-15T11:38:41.932Z",
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 51
+    "patch": 52
   },
   "logoURI": "https://kurama-token.netlify.app/images/kurama/0x5c1fe01d69d2657455b6d4ae61500f2f42353e10.png",
   "keywords": [
@@ -37,6 +37,16 @@
         "Stablecoins"
       ],
       "wrapId": "0x89F61DbAbdA1701b628EccdFCec5F3f2d0fB2958"
+    },
+    {
+      "name": "Kurama",
+      "symbol": "KRM",
+      "id": "0x092af52739614f3B83eC9646e7ecf6928f35362a",
+      "chainId": 534351,
+      "decimals": 6,
+      "logoURI": "https://kurama-token.netlify.app/images/kurama-test/0x092af52739614f3B83eC9646e7ecf6928f35362a.png",
+      "labels": [],
+      "wrapId": "0x092af52739614f3B83eC9646e7ecf6928f35362a"
     },
     {
       "name": "Ether",
