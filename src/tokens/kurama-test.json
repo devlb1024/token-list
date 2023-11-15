@@ -21,6 +21,15 @@
     "labels": ["Stablecoins"]
   },
   {
+    "name": "Kurama",
+    "symbol": "KRM",
+    "id": "0x092af52739614f3B83eC9646e7ecf6928f35362a",
+    "chainId": 534351,
+    "decimals": 6,
+    "logoURI": "https://kurama-token.netlify.app/images/kurama-test/0x092af52739614f3B83eC9646e7ecf6928f35362a.png",
+    "labels": []
+  },
+  {
     "name": "Ether",
     "symbol": "ETH",
     "id": "0xa8AEfb1aFD335b43Ec8761bc0dc6fcD8657aAe87",

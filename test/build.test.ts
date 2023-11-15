@@ -1,6 +1,6 @@
 import { buildPath } from "../src";
 import { readJSONFile } from "../src/utils/jsonUtils";
-
+// https://dojo-token.netlify.app/vic-test.json
 describe('test', () => {
 
   test('readJSONFile', async () => {
