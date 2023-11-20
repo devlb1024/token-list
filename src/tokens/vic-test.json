@@ -7,7 +7,7 @@
     "decimals": 18,
     "logoURI": "https://dojo-token.netlify.app/images/vic-test/0xc12c6CBbc9c26D73399bc430fA9AD4365d523Ab4.png",
     "isNative": true,
-    "type": "trc20",
+    "type": "vrc20",
     "labels": []
   },
   {
@@ -19,7 +19,7 @@
     "decimals": 18,
     "logoURI": "https://dojo-token.netlify.app/images/vic-test/0x0000000000000000000000000000000000000001.png",
     "isNative": false,
-    "type": "trc20",
+    "type": "vrc20",
     "labels": []
   },
   {
@@ -29,7 +29,7 @@
     "chainId": 89,
     "decimals": 6,
     "logoURI": "https://dojo-token.netlify.app/images/vic-test/0xF5E2f4af2c55548EA4bF97beE2C32C8d292b7dDD.png",
-    "type": "trc20",
+    "type": "vrc20",
     "labels": [
       "Stablecoins"
     ]
@@ -41,7 +41,7 @@
     "chainId": 89,
     "decimals": 6,
     "logoURI": "https://dojo-token.netlify.app/images/vic-test/0x5210419E3096C507FD7ac5FD0Ad2aBb513621B29.png",
-    "type": "trc20",
+    "type": "vrc20",
     "labels": [
       "Stablecoins"
     ]
