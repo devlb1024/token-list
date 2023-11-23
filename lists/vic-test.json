@@ -1,10 +1,10 @@
 {
   "name": "vic-test",
-  "timestamp": "2023-11-20T08:50:29.337Z",
+  "timestamp": "2023-11-23T03:54:24.750Z",
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 3
+    "patch": 4
   },
   "logoURI": "https://dojo-token.netlify.app/images/vic-test/0xc12c6CBbc9c26D73399bc430fA9AD4365d523Ab4.png",
   "keywords": [
@@ -61,6 +61,17 @@
         "Stablecoins"
       ],
       "wrapId": "0x5210419E3096C507FD7ac5FD0Ad2aBb513621B29"
+    },
+    {
+      "name": "Dojo test Token",
+      "symbol": "Dojoswap",
+      "id": "0x9085DC4819cdf4cD45fa0e139395D95f5bE38e72",
+      "chainId": 89,
+      "decimals": 6,
+      "logoURI": "https://dojo-token.netlify.app/images/vic-test/0x9085DC4819cdf4cD45fa0e139395D95f5bE38e72.png",
+      "type": "vrc20",
+      "labels": [],
+      "wrapId": "0x9085DC4819cdf4cD45fa0e139395D95f5bE38e72"
     }
   ]
 }

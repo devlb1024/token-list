@@ -45,5 +45,15 @@
     "labels": [
       "Stablecoins"
     ]
+  },
+  {
+    "name": "Dojo test Token",
+    "symbol": "Dojoswap",
+    "id": "0x9085DC4819cdf4cD45fa0e139395D95f5bE38e72",
+    "chainId": 89,
+    "decimals": 6,
+    "logoURI": "https://dojo-token.netlify.app/images/vic-test/0x9085DC4819cdf4cD45fa0e139395D95f5bE38e72.png",
+    "type": "vrc20",
+    "labels": []
   }
 ]
