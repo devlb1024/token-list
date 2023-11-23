@@ -47,8 +47,8 @@
     ]
   },
   {
-    "name": "Dojo test Token",
-    "symbol": "Dojoswap",
+    "name": "Dojoswap",
+    "symbol": "Dojo",
     "id": "0x9085DC4819cdf4cD45fa0e139395D95f5bE38e72",
     "chainId": 89,
     "decimals": 6,
