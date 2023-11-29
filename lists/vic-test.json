@@ -1,10 +1,10 @@
 {
   "name": "vic-test",
-  "timestamp": "2023-11-29T04:01:09.205Z",
+  "timestamp": "2023-11-29T04:02:24.008Z",
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 10
+    "patch": 11
   },
   "logoURI": "https://dojo-token.netlify.app/images/vic-test/0xc12c6CBbc9c26D73399bc430fA9AD4365d523Ab4.png",
   "keywords": [
@@ -27,14 +27,14 @@
     {
       "name": "Wrapped VICTION",
       "symbol": "WVIC",
-      "id": "0x0000000000000000000000000000000000000001",
+      "id": "0xeD36ca79cD08332553ad11f5905aE759DA008Bc5",
       "chainId": 89,
       "decimals": 18,
       "logoURI": "https://dojo-token.netlify.app/images/vic-test/0x0000000000000000000000000000000000000001.png",
       "isNative": false,
       "type": "vrc20",
       "labels": [],
-      "wrapId": "0x0000000000000000000000000000000000000001"
+      "wrapId": "0xeD36ca79cD08332553ad11f5905aE759DA008Bc5"
     },
     {
       "name": "USD Coin",
