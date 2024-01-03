@@ -1,10 +1,10 @@
 {
   "name": "vic-test",
-  "timestamp": "2023-12-29T10:11:17.520Z",
+  "timestamp": "2024-01-03T06:55:11.191Z",
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 13
+    "patch": 14
   },
   "logoURI": "https://dojo-token.netlify.app/images/vic-test/0xc12c6CBbc9c26D73399bc430fA9AD4365d523Ab4.png",
   "keywords": [
@@ -15,19 +15,19 @@
     {
       "name": "VICTION",
       "symbol": "VIC",
-      "id": "0xeD36ca79cD08332553ad11f5905aE759DA008Bc5",
+      "id": "0x6D11438EdC98Ff2FB23083Ce40F4B7e389b7176E",
       "chainId": 89,
       "decimals": 18,
-      "logoURI": "https://dojo-token.netlify.app/images/vic-test/0xeD36ca79cD08332553ad11f5905aE759DA008Bc5.png",
+      "logoURI": "https://dojo-token.netlify.app/images/vic-test/0x6D11438EdC98Ff2FB23083Ce40F4B7e389b7176E.png",
       "isNative": true,
       "type": "vrc20",
       "labels": [],
-      "wrapId": "0xeD36ca79cD08332553ad11f5905aE759DA008Bc5"
+      "wrapId": "0x6D11438EdC98Ff2FB23083Ce40F4B7e389b7176E"
     },
     {
       "name": "Wrapped VICTION",
       "symbol": "WVIC",
-      "id": "0xeD36ca79cD08332553ad11f5905aE759DA008Bc5",
+      "id": "0x6D11438EdC98Ff2FB23083Ce40F4B7e389b7176E",
       "wrapId": "0x0000000000000000000000000000000000000001",
       "chainId": 89,
       "decimals": 18,
@@ -39,39 +39,61 @@
     {
       "name": "USD Coin",
       "symbol": "USDC",
-      "id": "0xF5E2f4af2c55548EA4bF97beE2C32C8d292b7dDD",
+      "id": "0x4EE1F449f57628dF62B89563b9571245dcC9b3f5",
       "chainId": 89,
       "decimals": 6,
-      "logoURI": "https://dojo-token.netlify.app/images/vic-test/0xF5E2f4af2c55548EA4bF97beE2C32C8d292b7dDD.png",
+      "logoURI": "https://dojo-token.netlify.app/images/vic-test/0x4EE1F449f57628dF62B89563b9571245dcC9b3f5.png",
       "type": "vrc20",
       "labels": [
         "Stablecoins"
       ],
-      "wrapId": "0xF5E2f4af2c55548EA4bF97beE2C32C8d292b7dDD"
+      "wrapId": "0x4EE1F449f57628dF62B89563b9571245dcC9b3f5"
+    },
+    {
+      "name": "BTC",
+      "symbol": "WBTC",
+      "id": "0xE5185e4f5e208Fc357eE17B6d5e967ab52d61a99",
+      "chainId": 89,
+      "decimals": 18,
+      "logoURI": "https://dojo-token.netlify.app/images/vic-test/0xE5185e4f5e208Fc357eE17B6d5e967ab52d61a99.png",
+      "type": "vrc20",
+      "labels": [],
+      "wrapId": "0xE5185e4f5e208Fc357eE17B6d5e967ab52d61a99"
+    },
+    {
+      "name": "ETH",
+      "symbol": "WETH",
+      "id": "0xcfEF98F1923722aC3d98BaD3866F07861BAe42B7",
+      "chainId": 89,
+      "decimals": 18,
+      "logoURI": "https://dojo-token.netlify.app/images/vic-test/0xcfEF98F1923722aC3d98BaD3866F07861BAe42B7.png",
+      "type": "vrc20",
+      "labels": [],
+      "wrapId": "0xcfEF98F1923722aC3d98BaD3866F07861BAe42B7"
     },
     {
       "name": "Tether",
       "symbol": "USDT",
-      "id": "0x5210419E3096C507FD7ac5FD0Ad2aBb513621B29",
+      "id": "0xD9b9C4104b601f9e371A7D7500E98fbE5C169b03",
       "chainId": 89,
       "decimals": 6,
-      "logoURI": "https://dojo-token.netlify.app/images/vic-test/0x5210419E3096C507FD7ac5FD0Ad2aBb513621B29.png",
+      "logoURI": "https://dojo-token.netlify.app/images/vic-test/0xD9b9C4104b601f9e371A7D7500E98fbE5C169b03.png",
       "type": "vrc20",
       "labels": [
         "Stablecoins"
       ],
-      "wrapId": "0x5210419E3096C507FD7ac5FD0Ad2aBb513621B29"
+      "wrapId": "0xD9b9C4104b601f9e371A7D7500E98fbE5C169b03"
     },
     {
       "name": "Mori Protocol",
       "symbol": "MORI",
-      "id": "0x9085DC4819cdf4cD45fa0e139395D95f5bE38e72",
+      "id": "0x338A5CF85e5cAF4a722f44Ba4eAe09bca8d5D48f",
       "chainId": 89,
       "decimals": 6,
-      "logoURI": "https://dojo-token.netlify.app/images/vic-test/0x9085DC4819cdf4cD45fa0e139395D95f5bE38e72.png",
+      "logoURI": "https://dojo-token.netlify.app/images/vic-test/0x338A5CF85e5cAF4a722f44Ba4eAe09bca8d5D48f.png",
       "type": "vrc20",
       "labels": [],
-      "wrapId": "0x9085DC4819cdf4cD45fa0e139395D95f5bE38e72"
+      "wrapId": "0x338A5CF85e5cAF4a722f44Ba4eAe09bca8d5D48f"
     }
   ]
 }
