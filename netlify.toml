@@ -1,5 +1,5 @@
 [build]
-  command = "npm run makelist-testnet"
+  command = "npm run makelist-b2-test"
   publish = "lists"
 
 [[headers]]
