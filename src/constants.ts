@@ -32,7 +32,7 @@ export const LISTS = {
   "b2-test": {
     name: "b2-test",
     keywords: ["bsquared", "default"],
-    logoURI: "https://ercbsquared-token.netlify.app/images/b2-test/0x6B7aB2622BfE00d62b4C787C2b3D29b021219b88.png",
+    logoURI: "https://bsquared-token.netlify.app/images/b2-test/0x6B7aB2622BfE00d62b4C787C2b3D29b021219b88.png",
     sort: false,
   },
   "tomo": {
