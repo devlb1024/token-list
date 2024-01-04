@@ -29,6 +29,12 @@ export const LISTS = {
     logoURI: "https://dojo-token.netlify.app/images/vic-test/0xc12c6CBbc9c26D73399bc430fA9AD4365d523Ab4.png",
     sort: false,
   },
+  "b2-test": {
+    name: "b2-test",
+    keywords: ["bsquared", "default"],
+    logoURI: "https://ercbsquared-token.netlify.app/images/b2-test/0x6B7aB2622BfE00d62b4C787C2b3D29b021219b88.png",
+    sort: false,
+  },
   "tomo": {
     name: "tomo",
     keywords: ["tomo", "default"],

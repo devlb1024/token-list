@@ -1,0 +1,77 @@
+{
+  "name": "b2-test",
+  "timestamp": "2024-01-04T07:11:00.750Z",
+  "version": {
+    "major": 0,
+    "minor": 0,
+    "patch": 1
+  },
+  "logoURI": "https://ercbsquared-token.netlify.app/images/b2-test/0x6B7aB2622BfE00d62b4C787C2b3D29b021219b88.png",
+  "keywords": [
+    "bsquared",
+    "default"
+  ],
+  "tokens": [
+    {
+      "name": "wnative",
+      "symbol": "BTC",
+      "id": "0x6B7aB2622BfE00d62b4C787C2b3D29b021219b88",
+      "chainId": 1002,
+      "decimals": 18,
+      "logoURI": "https://ercbsquared-token.netlify.app/images/b2-test/0x6B7aB2622BfE00d62b4C787C2b3D29b021219b88.png",
+      "isNative": true,
+      "type": "erc",
+      "labels": [],
+      "wrapId": "0x6B7aB2622BfE00d62b4C787C2b3D29b021219b88"
+    },
+    {
+      "name": "Wrapped BTC",
+      "symbol": "WBTC",
+      "id": "0x6B7aB2622BfE00d62b4C787C2b3D29b021219b88",
+      "wrapId": "0x0000000000000000000000000000000000000001",
+      "chainId": 1002,
+      "decimals": 18,
+      "logoURI": "https://ercbsquared-token.netlify.app/images/b2-test/0x0000000000000000000000000000000000000001.png",
+      "isNative": false,
+      "type": "erc",
+      "labels": []
+    },
+    {
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "id": "0x17459858c5bAD5e97E48Eb831fa8B1096964b0d7",
+      "chainId": 1002,
+      "decimals": 6,
+      "logoURI": "https://ercbsquared-token.netlify.app/images/b2-test/0x17459858c5bAD5e97E48Eb831fa8B1096964b0d7.png",
+      "type": "erc",
+      "labels": [
+        "Stablecoins"
+      ],
+      "wrapId": "0x17459858c5bAD5e97E48Eb831fa8B1096964b0d7"
+    },
+    {
+      "name": "ETH",
+      "symbol": "WETH",
+      "id": "0x832BAB2E1215020d7F5D477FF7A71c2cD638c27C",
+      "chainId": 1002,
+      "decimals": 18,
+      "logoURI": "https://ercbsquared-token.netlify.app/images/v2-test/0x832BAB2E1215020d7F5D477FF7A71c2cD638c27C.png",
+      "type": "erc",
+      "labels": [],
+      "wrapId": "0x832BAB2E1215020d7F5D477FF7A71c2cD638c27C"
+    },
+    {
+      "name": "Tether",
+      "symbol": "USDT",
+      "id": "0x720114819c30558f8c5807aB76A5030febB6cAaE",
+      "chainId": 1002,
+      "decimals": 6,
+      "logoURI": "https://ercbsquared-token.netlify.app/images/b2-test/0x720114819c30558f8c5807aB76A5030febB6cAaE.png",
+      "type": "erc",
+      "labels": [
+        "Stablecoins"
+      ],
+      "wrapId": "0x720114819c30558f8c5807aB76A5030febB6cAaE"
+    }
+  ]
+}
