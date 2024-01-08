@@ -1,10 +1,10 @@
 {
   "name": "b2-test",
-  "timestamp": "2024-01-04T07:22:29.829Z",
+  "timestamp": "2024-01-08T02:53:41.628Z",
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 2
+    "patch": 3
   },
   "logoURI": "https://bsquared-token.netlify.app/images/b2-test/0x6B7aB2622BfE00d62b4C787C2b3D29b021219b88.png",
   "keywords": [
@@ -55,7 +55,7 @@
       "id": "0x832BAB2E1215020d7F5D477FF7A71c2cD638c27C",
       "chainId": 1002,
       "decimals": 18,
-      "logoURI": "https://bsquared-token.netlify.app/images/v2-test/0x832BAB2E1215020d7F5D477FF7A71c2cD638c27C.png",
+      "logoURI": "https://bsquared-token.netlify.app/images/b2-test/0x832BAB2E1215020d7F5D477FF7A71c2cD638c27C.png",
       "type": "erc",
       "labels": [],
       "wrapId": "0x832BAB2E1215020d7F5D477FF7A71c2cD638c27C"
