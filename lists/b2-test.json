@@ -1,10 +1,10 @@
 {
   "name": "b2-test",
-  "timestamp": "2024-01-08T02:53:41.628Z",
+  "timestamp": "2024-01-10T06:57:47.245Z",
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 3
+    "patch": 4
   },
   "logoURI": "https://bsquared-token.netlify.app/images/b2-test/0x6B7aB2622BfE00d62b4C787C2b3D29b021219b88.png",
   "keywords": [
@@ -13,7 +13,7 @@
   ],
   "tokens": [
     {
-      "name": "wnative",
+      "name": "Bitcoin",
       "symbol": "BTC",
       "id": "0x6B7aB2622BfE00d62b4C787C2b3D29b021219b88",
       "chainId": 1002,
