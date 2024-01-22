@@ -15,6 +15,7 @@
     "makelist-tomo-testnet": "ts-node src/index.ts makelist tomo-test",
     "makelist-vic-test": "ts-node src/index.ts makelist vic-test",
     "makelist-b2-test": "ts-node src/index.ts makelist b2-test",
+    "makelist-glow-test": "ts-node src/index.ts makelist glow-test",
     "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
     "fetch": "bun run index.ts fetch",
     "test": "jest",
