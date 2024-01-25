@@ -1,10 +1,10 @@
 {
   "name": "vic-test",
-  "timestamp": "2024-01-03T11:16:22.620Z",
+  "timestamp": "2024-01-25T08:47:33.900Z",
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 15
+    "patch": 16
   },
   "logoURI": "https://dojo-token.netlify.app/images/vic-test/0xc12c6CBbc9c26D73399bc430fA9AD4365d523Ab4.png",
   "keywords": [
@@ -87,6 +87,17 @@
     {
       "name": "Mori Protocol",
       "symbol": "MORI",
+      "id": "0x338A5CF85e5cAF4a722f44Ba4eAe09bca8d5D48f",
+      "chainId": 89,
+      "decimals": 9,
+      "logoURI": "https://dojo-token.netlify.app/images/vic-test/0x338A5CF85e5cAF4a722f44Ba4eAe09bca8d5D48f.png",
+      "type": "vrc20",
+      "labels": [],
+      "wrapId": "0x338A5CF85e5cAF4a722f44Ba4eAe09bca8d5D48f"
+    },
+    {
+      "name": "Mori Protocol",
+      "symbol": "MORI2",
       "id": "0x338A5CF85e5cAF4a722f44Ba4eAe09bca8d5D48f",
       "chainId": 89,
       "decimals": 9,
