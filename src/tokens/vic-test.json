@@ -77,15 +77,5 @@
     "logoURI": "https://dojo-token.netlify.app/images/vic-test/0x338A5CF85e5cAF4a722f44Ba4eAe09bca8d5D48f.png",
     "type": "vrc20",
     "labels": []
-  },
-  {
-    "name": "Mori Protocol",
-    "symbol": "MORI2",
-    "id": "0x338A5CF85e5cAF4a722f44Ba4eAe09bca8d5D48f",
-    "chainId": 89,
-    "decimals": 9,
-    "logoURI": "https://dojo-token.netlify.app/images/vic-test/0x338A5CF85e5cAF4a722f44Ba4eAe09bca8d5D48f.png",
-    "type": "vrc20",
-    "labels": []
   }
 ]
