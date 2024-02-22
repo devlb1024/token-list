@@ -41,6 +41,12 @@ export const LISTS = {
     logoURI: "https://bsquared-token.netlify.app/images/glow-test/0x720114819c30558f8c5807aB76A5030febB6cAaE.png",
     sort: false,
   },
+  "glow-habitat-test": {
+    name: "glow-habitat-test",
+    keywords: ["bsquared", "default"],
+    logoURI: "https://bsquared-token.netlify.app/images/glow-habitat-test/0x74c0d1DaB4E34339c7704C80A00651AfAd1fBd8f.png",
+    sort: false,
+  },
   "tomo": {
     name: "tomo",
     keywords: ["tomo", "default"],

@@ -16,6 +16,7 @@
     "makelist-vic-test": "ts-node src/index.ts makelist vic-test",
     "makelist-b2-test": "ts-node src/index.ts makelist b2-test",
     "makelist-glow-test": "ts-node src/index.ts makelist glow-test",
+    "makelist-glow-habitat-test": "ts-node src/index.ts makelist glow-habitat-test",
     "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
     "fetch": "bun run index.ts fetch",
     "test": "jest",
